@@ -7,6 +7,6 @@ USER spring:spring
 # Specify JAR location
 ARG JAR_FILE=target/*.jar
 # Copy the JAR
-COPY ${JAR_FILE} api-0.0.1-SNAPSHOT.jar
+COPY ${JAR_FILE} testy-api-0.0.1-SNAPSHOT.jar
 # Set ENTRYPOINT in exec form to run the container as an executable
-ENTRYPOINT ["java","-jar","/test-api-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","testy-api-0.0.1-SNAPSHOT.jar"]

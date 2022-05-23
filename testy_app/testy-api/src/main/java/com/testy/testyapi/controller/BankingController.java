@@ -8,7 +8,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @RestController
 @RequestMapping(value = "/bank")
 public class BankingController {

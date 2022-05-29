@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { BankingApplicationComponent } from './components/banking-application/banking-application.component';
 import { ScheduleAppComponent } from './components/schedule-app/schedule-app.component';
+import { ErsLandingPageComponent } from './components/ERS/ers-landing-page/ers-landing-page.component';
+import { ErsLoginPageComponent } from './components/ERS/ers-login-page/ers-login-page.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { ScheduleAppComponent } from './components/schedule-app/schedule-app.com
     AppComponent,
     LandingPageComponent,
     BankingApplicationComponent,
-    ScheduleAppComponent
+    ScheduleAppComponent,
+    ErsLandingPageComponent,
+    ErsLoginPageComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +26,9 @@ import { ScheduleAppComponent } from './components/schedule-app/schedule-app.com
     RouterModule.forRoot([
       {path: '', component: LandingPageComponent},
       {path: 'bank', component: BankingApplicationComponent},
-      {path: 'schedule', component: ScheduleAppComponent}
+      {path: 'schedule', component: ScheduleAppComponent},
+      {path: 'ers-login', component: ErsLoginPageComponent},
+      {path: 'ers-landing', component: ErsLandingPageComponent}
     ])
   ],
   providers: [],

@@ -16,10 +16,12 @@ export class BankingApplicationComponent implements OnInit {
   }
 
   ping() {
-    console.log("in ping");
+    console.log("in ping func");
     this.http.get<any>('http://localhost:8080/bank/ping').subscribe(data => {
       console.log(data);
     })
     
   }
+
+  
   }

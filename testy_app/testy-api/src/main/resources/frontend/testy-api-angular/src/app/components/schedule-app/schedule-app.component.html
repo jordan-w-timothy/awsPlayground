@@ -1,33 +1,36 @@
-<p>schedule-app works!</p>
-<button type="button" (click)="ping()"> <a>Schedule Ping!</a></button>
-<button type="button" (click)="getSchedule()"> <a>Schedule Ping!</a></button>
-<h1>{{date}}</h1>
-<h1>{{title}}</h1>
-<div class="schedule">
-    <h2 class="schedule-event" id="00">00:00 - {{eventsArray[0]}}</h2>
-    <h2 class="schedule-event" id="01">01:00 - {{eventsArray[1]}}</h2><br>
-    <h2 class="schedule-event" id="02">02:00 - {{eventsArray[2]}}</h2><br>
-    <h2 class="schedule-event" id="03">03:00 - {{eventsArray[3]}}</h2><br>
-    <h2 class="schedule-event" id="04">04:00 - {{eventsArray[4]}}</h2><br>
-    <h2 class="schedule-event" id="05">05:00 - {{eventsArray[5]}}</h2><br>
-    <h2 class="schedule-event" id="06">06:00 - {{eventsArray[6]}}</h2><br>
-    <h2 class="schedule-event" id="07">07:00 - {{eventsArray[7]}}</h2><br>
-    <h2 class="schedule-event" id="08">08:00 - {{eventsArray[8]}}</h2><br>
-    <h2 class="schedule-event" id="09">09:00 - {{eventsArray[9]}}</h2><br>
-    <h2 class="schedule-event" id="10">10:00 - {{eventsArray[10]}}</h2><br>
-    <h2 class="schedule-event" id="11">11:00 - {{eventsArray[11]}}</h2><br>
-    <h2 class="schedule-event" id="12">12:00 - {{eventsArray[12]}}</h2><br>
-    <h2 class="schedule-event" id="13">13:00 - {{eventsArray[13]}}</h2><br>
-    <h2 class="schedule-event" id="14">14:00 - {{eventsArray[14]}}</h2><br>
-    <h2 class="schedule-event" id="15">15:00 - {{eventsArray[15]}}</h2><br>
-    <h2 class="schedule-event" id="16">16:00 - {{eventsArray[16]}}</h2><br>
-    <h2 class="schedule-event" id="17">17:00 - {{eventsArray[17]}}</h2><br>
-    <h2 class="schedule-event" id="18">18:00 - {{eventsArray[18]}}</h2><br>
-    <h2 class="schedule-event" id="19">19:00 - {{eventsArray[19]}}</h2><br>
-    <h2 class="schedule-event" id="20">20:00 - {{eventsArray[20]}}</h2><br>
-    <h2 class="schedule-event" id="21">21:00 - {{eventsArray[21]}}</h2><br>
-    <h2 class="schedule-event" id="22">22:00 - {{eventsArray[22]}}</h2><br>
-    <h2 class="schedule-event" id="23">23:00 - {{eventsArray[23]}}</h2><br>
-    
-</div>
+<div class="schedulePageMain">
+    <h1>Daily Schedule</h1>
+    <button type="button"> <a routerLink="/">Testy App</a></button>
+    <button type="button" (click)="getSchedule()"> <a>Get Schedule</a></button>
+    <h1>{{date}}</h1>
+    <h1>{{title}}</h1>
+    <div class="schedule col-sm-6">
+        <h2 class="schedule-event" id="00">00:00 - {{eventsArray[0]}}</h2>
+        <h2 class="schedule-event" id="01">01:00 - {{eventsArray[1]}}</h2><br>
+        <h2 class="schedule-event" id="02">02:00 - {{eventsArray[2]}}</h2><br>
+        <h2 class="schedule-event" id="03">03:00 - {{eventsArray[3]}}</h2><br>
+        <h2 class="schedule-event" id="04">04:00 - {{eventsArray[4]}}</h2><br>
+        <h2 class="schedule-event" id="05">05:00 - {{eventsArray[5]}}</h2><br>
+        <h2 class="schedule-event" id="06">06:00 - {{eventsArray[6]}}</h2><br>
+        <h2 class="schedule-event" id="07">07:00 - {{eventsArray[7]}}</h2><br>
+        <h2 class="schedule-event" id="08">08:00 - {{eventsArray[8]}}</h2><br>
+        <h2 class="schedule-event" id="09">09:00 - {{eventsArray[9]}}</h2><br>
+        <h2 class="schedule-event" id="10">10:00 - {{eventsArray[10]}}</h2><br>
+        <h2 class="schedule-event" id="11">11:00 - {{eventsArray[11]}}</h2><br>
+        <h2 class="schedule-event" id="12">12:00 - {{eventsArray[12]}}</h2><br>
+        <h2 class="schedule-event" id="13">13:00 - {{eventsArray[13]}}</h2><br>
+        <h2 class="schedule-event" id="14">14:00 - {{eventsArray[14]}}</h2><br>
+        <h2 class="schedule-event" id="15">15:00 - {{eventsArray[15]}}</h2><br>
+        <h2 class="schedule-event" id="16">16:00 - {{eventsArray[16]}}</h2><br>
+        <h2 class="schedule-event" id="17">17:00 - {{eventsArray[17]}}</h2><br>
+        <h2 class="schedule-event" id="18">18:00 - {{eventsArray[18]}}</h2><br>
+        <h2 class="schedule-event" id="19">19:00 - {{eventsArray[19]}}</h2><br>
+        <h2 class="schedule-event" id="20">20:00 - {{eventsArray[20]}}</h2><br>
+        <h2 class="schedule-event" id="21">21:00 - {{eventsArray[21]}}</h2><br>
+        <h2 class="schedule-event" id="22">22:00 - {{eventsArray[22]}}</h2><br>
+        <h2 class="schedule-event" id="23">23:00 - {{eventsArray[23]}}</h2><br>
+        
+    </div>
 
+
+</div>

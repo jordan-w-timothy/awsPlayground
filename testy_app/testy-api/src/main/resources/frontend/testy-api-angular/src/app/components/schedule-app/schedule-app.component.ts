@@ -14,8 +14,8 @@ export class ScheduleAppComponent implements OnInit {
     title: "Lazy Schedule"
   };
 
-  date: string = "no Date";
-  title: string = "hhh";
+  date: string = "Date";
+  title: string = "Title";
   eventsArray: any[] = new Array();
 
   constructor(private http: HttpClient) { }
@@ -51,5 +51,9 @@ export class ScheduleAppComponent implements OnInit {
       }
       
     })
+  }
+
+  scheduleHome() {
+
   }
 }

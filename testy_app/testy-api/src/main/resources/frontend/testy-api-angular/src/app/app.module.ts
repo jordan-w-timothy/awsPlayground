@@ -9,6 +9,8 @@ import { BankingApplicationComponent } from './components/banking-application/ba
 import { ScheduleAppComponent } from './components/schedule-app/schedule-app.component';
 import { ErsLandingPageComponent } from './components/ERS/ers-landing-page/ers-landing-page.component';
 import { ErsLoginPageComponent } from './components/ERS/ers-login-page/ers-login-page.component';
+import { User } from './models/ERS/user';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -23,6 +25,7 @@ import { ErsLoginPageComponent } from './components/ERS/ers-login-page/ers-login
   imports: [
     BrowserModule,
     HttpClientModule,
+    FormsModule,
     RouterModule.forRoot([
       {path: '', component: LandingPageComponent},
       {path: 'bank', component: BankingApplicationComponent},

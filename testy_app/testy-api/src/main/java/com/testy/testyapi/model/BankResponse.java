@@ -1,4 +1,4 @@
-package com.testy.testyapi;
+package com.testy.testyapi.model;
 
 import java.util.Objects;
 
